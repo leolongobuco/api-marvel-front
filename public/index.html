@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Api Marvel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark fixed-top bg-dark">
+        <div class="container">
+          <a href="/" class="navbar-brand" id="index">
+            <img src="./img/marvel-logo.jpg" alt="Logo Marvel" width="125" />
+          </a>
+          <form class="d-flex">
+            <input
+              class="form-control"
+              type="search"
+              id="search-input"
+              placeholder="Procure um personagem"
+            />
+            <button
+              class="btn bg-dark text-white"
+              id="search-button"
+              type="button"
+            >
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <main id="principal-content" class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex flex-wrap" id="lista-personagens"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 flex align-items-center justify-content-center">
+          <nav>
+            <ul class="pagination"></ul>
+          </nav>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex aling-items-center justify-content-between">
+            <div>
+              <span>Marvel / Realizado por Leonardo Longobuco</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./bundle.js"></script>
+  </body>
+</html>

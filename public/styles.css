@@ -1,0 +1,39 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.navbar {
+  height: 6rem;
+}
+
+#principal-content {
+  margin-top: 7.5rem;
+  margin-bottom: 2.2rem;
+  min-height: 71vh;
+}
+
+.card {
+  box-shadow: 0 0 10px #0000004d;
+}
+
+.card-img-top {
+  height: 13rem;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
+}
+
+.pagination .page-link {
+  color: #000;
+}
+
+.pagination .page-link:hover {
+  color: red;
+}
